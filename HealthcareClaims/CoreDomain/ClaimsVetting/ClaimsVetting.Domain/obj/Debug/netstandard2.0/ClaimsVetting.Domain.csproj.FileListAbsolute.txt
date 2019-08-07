@@ -1,9 +1,0 @@
-D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsVetting\ClaimsVetting.Domain\bin\Debug\netstandard2.0\ClaimsVetting.Domain.deps.json
-D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsVetting\ClaimsVetting.Domain\bin\Debug\netstandard2.0\ClaimsVetting.Domain.dll
-D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsVetting\ClaimsVetting.Domain\bin\Debug\netstandard2.0\ClaimsVetting.Domain.pdb
-D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsVetting\ClaimsVetting.Domain\obj\Debug\netstandard2.0\ClaimsVetting.Domain.csprojAssemblyReference.cache
-D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsVetting\ClaimsVetting.Domain\obj\Debug\netstandard2.0\ClaimsVetting.Domain.csproj.CoreCompileInputs.cache
-D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsVetting\ClaimsVetting.Domain\obj\Debug\netstandard2.0\ClaimsVetting.Domain.AssemblyInfoInputs.cache
-D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsVetting\ClaimsVetting.Domain\obj\Debug\netstandard2.0\ClaimsVetting.Domain.AssemblyInfo.cs
-D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsVetting\ClaimsVetting.Domain\obj\Debug\netstandard2.0\ClaimsVetting.Domain.dll
-D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsVetting\ClaimsVetting.Domain\obj\Debug\netstandard2.0\ClaimsVetting.Domain.pdb
