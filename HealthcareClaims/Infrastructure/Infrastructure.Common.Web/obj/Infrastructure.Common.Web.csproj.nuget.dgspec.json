@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\Infrastructure\\Infrastructure.Common.Web\\Infrastructure.Common.Web.csproj": {}
+  },
+  "projects": {
+    "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\Infrastructure\\Infrastructure.Common.Web\\Infrastructure.Common.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\Infrastructure\\Infrastructure.Common.Web\\Infrastructure.Common.Web.csproj",
+        "projectName": "Infrastructure.Common.Web",
+        "projectPath": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\Infrastructure\\Infrastructure.Common.Web\\Infrastructure.Common.Web.csproj",
+        "packagesPath": "C:\\Users\\Lenovo-PC\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\Infrastructure\\Infrastructure.Common.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\temp\\nuget\\packages": {},
+          "http://nuget.yameo.pl:81/api/v2": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "App.Metrics": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.AspNetCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.AspNetCore.Health": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.Reporting.InfluxDB": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Consul": {
+              "target": "Package",
+              "version": "[0.7.2.6, )"
+            },
+            "Jaeger": {
+              "target": "Package",
+              "version": "[0.3.3, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Minio": {
+              "target": "Package",
+              "version": "[3.0.12, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "RawRabbit": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Operations.Publish": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Operations.Subscribe": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

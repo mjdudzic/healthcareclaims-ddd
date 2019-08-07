@@ -1,0 +1,9 @@
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\Infrastructure\Infrastructure.Common.Web\bin\Debug\netstandard2.0\Infrastructure.Common.Web.deps.json
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\Infrastructure\Infrastructure.Common.Web\bin\Debug\netstandard2.0\Infrastructure.Common.Web.dll
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\Infrastructure\Infrastructure.Common.Web\bin\Debug\netstandard2.0\Infrastructure.Common.Web.pdb
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\Infrastructure\Infrastructure.Common.Web\obj\Debug\netstandard2.0\Infrastructure.Common.Web.csprojAssemblyReference.cache
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\Infrastructure\Infrastructure.Common.Web\obj\Debug\netstandard2.0\Infrastructure.Common.Web.csproj.CoreCompileInputs.cache
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\Infrastructure\Infrastructure.Common.Web\obj\Debug\netstandard2.0\Infrastructure.Common.Web.AssemblyInfoInputs.cache
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\Infrastructure\Infrastructure.Common.Web\obj\Debug\netstandard2.0\Infrastructure.Common.Web.AssemblyInfo.cs
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\Infrastructure\Infrastructure.Common.Web\obj\Debug\netstandard2.0\Infrastructure.Common.Web.dll
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\Infrastructure\Infrastructure.Common.Web\obj\Debug\netstandard2.0\Infrastructure.Common.Web.pdb

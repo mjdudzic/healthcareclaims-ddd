@@ -1,0 +1,56 @@
+{
+	"BatchNumber": "ABC0000001",
+	"SubmissionDate": "2019-06-01T12:00:00",
+	"HealthcareProviderId": {
+		"IdentificationNumber": "HP0001",
+		"RegionCode": "CNTR"
+	},
+	"Claims": [
+		{
+			"ClaimNumber": "ABC0000001_0001",
+			"SubmissionDate": "2019-05-01T12:00:00",
+			"TotalPrice": { "Amount": 200.00, "Currency": "EUR" },
+			"Patient": {
+				"InsuranceNumber": "INS0000001",
+				"FirstName": "John",
+				"LastName": "Doe",
+				"BirthDate": "1980-01-01",
+				"Gender": "Male",
+				"VisitDate": "2019-05-01T08:00:00",
+				"DischargeDate": "2019-05-01T08:00:00"
+			},
+			"Diagnoses": [
+				{ "Code": "D01", "Description": "Some diagnose" }
+			],
+			"Procedures": [
+				{ "Code": "P01", "Description": "Study" }
+			],
+			"Medicines": [
+				{ "Code": "M01", "Description": "tabs", "Price": { "Amount": 50.00, "Currency": "EUR" }, "MedicineUnit": { "Quantity": "50", "UnitName": "tablets" } }
+			]
+		},
+		{
+			"ClaimNumber": "ABC0000001_0002",
+			"SubmissionDate": "2019-05-01T12:00:00",
+			"TotalPrice": { "Amount": 100.00, "Currency": "EUR" },
+			"Patient": {
+				"InsuranceNumber": "INS0000001",
+				"FirstName": "Ann",
+				"LastName": "Kowalsky",
+				"BirthDate": "1987-01-01",
+				"Gender": "Male",
+				"VisitDate": "2019-05-02T08:00:00",
+				"DischargeDate": "2019-05-01T08:00:00"
+			},
+			"Diagnoses": [
+				{ "Code": "D01", "Description": "Pharyngitis" }
+			],
+			"Procedures": [
+				{ "Code": "P01", "Description": "Study" }
+			],
+			"Medicines": [
+				{ "Code": "M01", "Description": "tabs", "Price": { "Amount": 50.00, "Currency": "EUR" }, "MedicineUnit": { "Quantity": 50, "UnitName": "tablets" } }
+			]
+		}
+	] 
+}

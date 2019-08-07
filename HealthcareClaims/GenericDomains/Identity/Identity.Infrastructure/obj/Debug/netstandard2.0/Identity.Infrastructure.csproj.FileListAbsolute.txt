@@ -1,0 +1,6 @@
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\GenericDomains\Identity\Identity.Infrastructure\bin\Debug\netstandard2.0\Identity.Infrastructure.deps.json
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\GenericDomains\Identity\Identity.Infrastructure\bin\Debug\netstandard2.0\Identity.Infrastructure.dll
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\GenericDomains\Identity\Identity.Infrastructure\obj\Debug\netstandard2.0\Identity.Infrastructure.csprojAssemblyReference.cache
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\GenericDomains\Identity\Identity.Infrastructure\obj\Debug\netstandard2.0\Identity.Infrastructure.csproj.CoreCompileInputs.cache
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\GenericDomains\Identity\Identity.Infrastructure\obj\Debug\netstandard2.0\Identity.Infrastructure.AssemblyInfoInputs.cache
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\GenericDomains\Identity\Identity.Infrastructure\obj\Debug\netstandard2.0\Identity.Infrastructure.AssemblyInfo.cs

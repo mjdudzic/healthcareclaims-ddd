@@ -1,0 +1,92 @@
+version: '3.4'
+
+services: 
+  consul:
+    image: consul:latest
+    command: consul agent -dev -log-level=warn -ui -client=0.0.0.0
+    hostname: consul
+    ports:
+      - "8500:8500"
+    volumes:
+      - consulconfig:/config
+      - consuldata:/data
+    networks:
+      - healthcareclaims_net_backtier
+
+  postgres:
+    image: postgres:11-alpine
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_PASSWORD=test*123
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - healthcareclaims_net_backtier
+
+  objects.storage:
+    image: minio/minio
+    environment:
+      - MINIO_ACCESS_KEY=minio
+      - MINIO_SECRET_KEY=minio123
+    ports:
+      - "9000:9000"
+    volumes:
+      - objectstorage:/data
+    command: server /data
+    networks:
+      - healthcareclaims_net_backtier
+
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+    networks:
+      - healthcareclaims_net_backtier
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.2.0
+    environment:
+      - discovery.type=single-node
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    volumes:
+      - elasticsearchdata:/usr/share/elasticsearch/data
+    networks:
+      - healthcareclaims_net_backtier
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.2.0
+    ports:
+      - "5601:5601"
+    depends_on:
+      - elasticsearch
+    networks:
+      - healthcareclaims_net_backtier
+      
+volumes: 
+  pgdata:
+    driver: local
+  logs:
+    driver: local
+  objectstorage:
+    driver: local
+  elasticsearchdata:
+    driver: local
+  consulconfig:
+    driver: local
+  consuldata:
+    driver: local
+  influxdb:
+    driver: local
+  grafana:
+    driver: local
+
+networks:
+  healthcareclaims_net_backtier:
+    driver: bridge

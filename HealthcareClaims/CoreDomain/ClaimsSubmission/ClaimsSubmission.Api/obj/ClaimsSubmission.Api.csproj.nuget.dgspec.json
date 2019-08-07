@@ -1,0 +1,476 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Api\\ClaimsSubmission.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Api\\ClaimsSubmission.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Api\\ClaimsSubmission.Api.csproj",
+        "projectName": "ClaimsSubmission.Api",
+        "projectPath": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Api\\ClaimsSubmission.Api.csproj",
+        "packagesPath": "C:\\Users\\Lenovo-PC\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\temp\\nuget\\packages": {},
+          "http://nuget.yameo.pl:81/api/v2": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Domain\\ClaimsSubmission.Domain.csproj": {
+                "projectPath": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Domain\\ClaimsSubmission.Domain.csproj"
+              },
+              "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Infrastructure\\ClaimsSubmission.Infrastructure.csproj": {
+                "projectPath": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Infrastructure\\ClaimsSubmission.Infrastructure.csproj"
+              },
+              "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\Infrastructure\\Infrastructure.Common.Web\\Infrastructure.Common.Web.csproj": {
+                "projectPath": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\Infrastructure\\Infrastructure.Common.Web\\Infrastructure.Common.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "App.Metrics.AspNetCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.7.5, )"
+            },
+            "Hangfire.Console": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "Hangfire.PostgreSql": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "Jaeger": {
+              "target": "Package",
+              "version": "[0.3.3, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.7.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "OpenIddict": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "OpenTracing.Contrib.NetCore": {
+              "target": "Package",
+              "version": "[0.6.0, )"
+            },
+            "RawRabbit": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.0.4, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "dbup-postgresql": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Domain\\ClaimsSubmission.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Domain\\ClaimsSubmission.Domain.csproj",
+        "projectName": "ClaimsSubmission.Domain",
+        "projectPath": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Domain\\ClaimsSubmission.Domain.csproj",
+        "packagesPath": "C:\\Users\\Lenovo-PC\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\temp\\nuget\\packages": {},
+          "http://nuget.yameo.pl:81/api/v2": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Infrastructure\\ClaimsSubmission.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Infrastructure\\ClaimsSubmission.Infrastructure.csproj",
+        "projectName": "ClaimsSubmission.Infrastructure",
+        "projectPath": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Infrastructure\\ClaimsSubmission.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Lenovo-PC\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\temp\\nuget\\packages": {},
+          "http://nuget.yameo.pl:81/api/v2": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Domain\\ClaimsSubmission.Domain.csproj": {
+                "projectPath": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Domain\\ClaimsSubmission.Domain.csproj"
+              },
+              "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\Infrastructure\\Infrastructure.Common.Web\\Infrastructure.Common.Web.csproj": {
+                "projectPath": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\Infrastructure\\Infrastructure.Common.Web\\Infrastructure.Common.Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Minio": {
+              "target": "Package",
+              "version": "[3.0.12, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "RawRabbit": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.DependencyInjection.ServiceCollection": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Operations.Publish": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Operations.Subscribe": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Operations.Tools": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\Infrastructure\\Infrastructure.Common.Web\\Infrastructure.Common.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\Infrastructure\\Infrastructure.Common.Web\\Infrastructure.Common.Web.csproj",
+        "projectName": "Infrastructure.Common.Web",
+        "projectPath": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\Infrastructure\\Infrastructure.Common.Web\\Infrastructure.Common.Web.csproj",
+        "packagesPath": "C:\\Users\\Lenovo-PC\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\Infrastructure\\Infrastructure.Common.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\temp\\nuget\\packages": {},
+          "http://nuget.yameo.pl:81/api/v2": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "App.Metrics": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.AspNetCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.AspNetCore.Health": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "App.Metrics.Reporting.InfluxDB": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Consul": {
+              "target": "Package",
+              "version": "[0.7.2.6, )"
+            },
+            "Jaeger": {
+              "target": "Package",
+              "version": "[0.3.3, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Minio": {
+              "target": "Package",
+              "version": "[3.0.12, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "RawRabbit": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Operations.Publish": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "RawRabbit.Operations.Subscribe": {
+              "target": "Package",
+              "version": "[2.0.0-rc5, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

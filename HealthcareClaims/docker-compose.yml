@@ -1,0 +1,57 @@
+version: '3.4'
+
+services: 
+  identity.api:
+    image: ${DOCKER_REGISTRY-}identityapi
+    build:
+      context: .
+      dockerfile: GenericDomains/Identity/Identity.Api/Dockerfile
+    networks:
+      - backtier
+  
+  claimssubmission.api:
+    image: ${DOCKER_REGISTRY-}claimssubmissionapi
+    build:
+      context: .
+      dockerfile: CoreDomain/ClaimsSubmission/ClaimsSubmission.Api/Dockerfile
+    networks:
+      - backtier
+
+  claimsvetting.api:
+    image: ${DOCKER_REGISTRY-}claimsvettingapi
+    build:
+      context: .
+      dockerfile: CoreDomain/ClaimsVetting/ClaimsVetting.Api/Dockerfile
+    networks:
+      - backtier
+
+  insuredmembers.api:
+    image: ${DOCKER_REGISTRY-}insuredmembersapi
+    build:
+      context: .
+      dockerfile: Subdomains/InsuredMembers/InsuredMembers.Api/Dockerfile
+    networks:
+      - backtier
+
+  codesdictionary.api:
+    image: ${DOCKER_REGISTRY-}codesdictionaryapi
+    build:
+      context: .
+      dockerfile: Subdomains/CodesDictionary/CodesDictionary.Api/Dockerfile
+    networks:
+      - backtier
+
+  api.gateway:
+    image: ${DOCKER_REGISTRY-}apigateway
+    build:
+      context: .
+      dockerfile: HealthcareClaims.ApiGateway/Dockerfile
+    ports:
+      - "7000:80"
+    networks:
+      - backtier
+
+networks:
+  backtier:
+    external:
+      name: infrastructure_healthcareclaims_net_backtier

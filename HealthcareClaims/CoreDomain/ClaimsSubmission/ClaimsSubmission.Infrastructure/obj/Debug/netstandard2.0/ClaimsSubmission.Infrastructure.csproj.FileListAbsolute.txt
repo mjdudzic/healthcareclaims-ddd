@@ -1,0 +1,14 @@
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Infrastructure\bin\Debug\netstandard2.0\ClaimsSubmission.Infrastructure.deps.json
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Infrastructure\bin\Debug\netstandard2.0\ClaimsSubmission.Infrastructure.dll
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Infrastructure\bin\Debug\netstandard2.0\ClaimsSubmission.Infrastructure.pdb
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Infrastructure\bin\Debug\netstandard2.0\ClaimsSubmission.Domain.dll
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Infrastructure\bin\Debug\netstandard2.0\Infrastructure.Common.Web.dll
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Infrastructure\bin\Debug\netstandard2.0\Infrastructure.Common.Web.pdb
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Infrastructure\bin\Debug\netstandard2.0\ClaimsSubmission.Domain.pdb
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Infrastructure\obj\Debug\netstandard2.0\ClaimsSubmission.Infrastructure.csprojAssemblyReference.cache
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Infrastructure\obj\Debug\netstandard2.0\ClaimsSubmission.Infrastructure.csproj.CoreCompileInputs.cache
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Infrastructure\obj\Debug\netstandard2.0\ClaimsSubmission.Infrastructure.AssemblyInfoInputs.cache
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Infrastructure\obj\Debug\netstandard2.0\ClaimsSubmission.Infrastructure.AssemblyInfo.cs
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Infrastructure\obj\Debug\netstandard2.0\ClaimsSubmission.Infrastructure.csproj.CopyComplete
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Infrastructure\obj\Debug\netstandard2.0\ClaimsSubmission.Infrastructure.dll
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Infrastructure\obj\Debug\netstandard2.0\ClaimsSubmission.Infrastructure.pdb

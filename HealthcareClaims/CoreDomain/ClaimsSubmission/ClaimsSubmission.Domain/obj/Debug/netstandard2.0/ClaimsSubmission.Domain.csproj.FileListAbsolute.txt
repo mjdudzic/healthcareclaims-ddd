@@ -1,0 +1,9 @@
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Domain\bin\Debug\netstandard2.0\ClaimsSubmission.Domain.deps.json
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Domain\bin\Debug\netstandard2.0\ClaimsSubmission.Domain.dll
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Domain\bin\Debug\netstandard2.0\ClaimsSubmission.Domain.pdb
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Domain\obj\Debug\netstandard2.0\ClaimsSubmission.Domain.csprojAssemblyReference.cache
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Domain\obj\Debug\netstandard2.0\ClaimsSubmission.Domain.csproj.CoreCompileInputs.cache
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Domain\obj\Debug\netstandard2.0\ClaimsSubmission.Domain.AssemblyInfoInputs.cache
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Domain\obj\Debug\netstandard2.0\ClaimsSubmission.Domain.AssemblyInfo.cs
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Domain\obj\Debug\netstandard2.0\ClaimsSubmission.Domain.dll
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Domain\obj\Debug\netstandard2.0\ClaimsSubmission.Domain.pdb

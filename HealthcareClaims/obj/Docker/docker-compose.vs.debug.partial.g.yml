@@ -1,0 +1,151 @@
+version: '3.4'
+
+services:
+  api.gateway:
+    image: apigateway:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "HealthcareClaims.ApiGateway"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_api.gateway$
+    volumes:
+      - D:\projects\training\healthcare.claimsapp\HealthcareClaims\HealthcareClaims.ApiGateway:/app
+      - C:\Users\Lenovo-PC\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_api.gateway$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_api.gateway$ \"bin/Debug/netcoreapp2.2/HealthcareClaims.ApiGateway.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+
+  claimssubmission.api:
+    image: claimssubmissionapi:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "ClaimsSubmission.Api"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_claimssubmission.api$
+    volumes:
+      - D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\ClaimsSubmission.Api:/app
+      - C:\Users\Lenovo-PC\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_claimssubmission.api$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_claimssubmission.api$ \"bin/Debug/netcoreapp2.2/ClaimsSubmission.Api.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+
+
+  claimsvetting.api:
+    image: claimsvettingapi:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "ClaimsVetting.Api"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_claimsvetting.api$
+    volumes:
+      - D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsVetting\ClaimsVetting.Api:/app
+      - C:\Users\Lenovo-PC\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_claimsvetting.api$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_claimsvetting.api$ \"bin/Debug/netcoreapp2.2/ClaimsVetting.Api.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+
+
+  codesdictionary.api:
+    image: codesdictionaryapi:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "CodesDictionary.Api"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_codesdictionary.api$
+    volumes:
+      - D:\projects\training\healthcare.claimsapp\HealthcareClaims\Subdomains\CodesDictionary\CodesDictionary.Api:/app
+      - C:\Users\Lenovo-PC\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_codesdictionary.api$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_codesdictionary.api$ \"bin/Debug/netcoreapp2.2/CodesDictionary.Api.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+
+
+  identity.api:
+    image: identityapi:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "Identity.Api"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_identity.api$
+    volumes:
+      - D:\projects\training\healthcare.claimsapp\HealthcareClaims\GenericDomains\Identity\Identity.Api:/app
+      - C:\Users\Lenovo-PC\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_identity.api$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_identity.api$ \"bin/Debug/netcoreapp2.2/Identity.Api.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+
+
+  insuredmembers.api:
+    image: insuredmembersapi:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "InsuredMembers.Api"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_insuredmembers.api$
+    volumes:
+      - D:\projects\training\healthcare.claimsapp\HealthcareClaims\Subdomains\InsuredMembers\InsuredMembers.Api:/app
+      - C:\Users\Lenovo-PC\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_insuredmembers.api$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_insuredmembers.api$ \"bin/Debug/netcoreapp2.2/InsuredMembers.Api.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+

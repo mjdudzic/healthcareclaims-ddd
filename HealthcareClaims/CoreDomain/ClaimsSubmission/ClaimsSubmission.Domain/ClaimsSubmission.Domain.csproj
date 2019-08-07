@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="AggregatesModel\BatchAggregate\Batch - Copy.cs" />
+    <Compile Remove="AggregatesModel\BatchAggregate\BatchValidationErrorCode.cs" />
+    <Compile Remove="AggregatesModel\BatchAggregate\Claim2.cs" />
+    <Compile Remove="AggregatesModel\BatchAggregate\ClaimValidationErrorCode.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="7.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>

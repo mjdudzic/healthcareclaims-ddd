@@ -1,0 +1,118 @@
+version: '3.4'
+
+services:
+  identity.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - DB_CONNECTION_STRING=Host=postgres;Port=5432;Database=HelathCareClaimsIdentity;Username=postgres;Password=test*123
+      - IDENTITY_AUTHORITY=http://identity.api/
+      - IDENTITY_AUDIENCE=healthcareclaims.apps
+      - ServiceConfig__Enabled=true
+      - ServiceConfig__ServiceDiscoveryAddress=http://consul:8500
+      - ServiceConfig__ServiceAddress=http://identity.api
+      - ServiceConfig__ServiceName=identity
+      - ServiceConfig__HealtCheckEndpoint=http://identity.api/health
+      - Jaeger__Enabled=false
+      - Jaeger__UdpHost=jaeger
+      - Jaeger__UdpPort=6831
+      - Metrics__Enabled=false
+      - Metrics__InfluxUrl=http://influxdb:8086
+      - Metrics__Database=claims-submission-metrics
+      - Metrics__Interval=10
+    ports:
+      - "7001:80"
+
+  claimssubmission.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - DB_CONNECTION_STRING=Host=postgres;Port=5432;Database=claims-submission;Username=postgres;Password=test*123
+      - IDENTITY_AUTHORITY=http://identity.api/
+      - IDENTITY_AUDIENCE=healthcareclaims.apps
+      - ObjectsStorage__Endpoint=host.docker.internal:9000
+      - ObjectsStorage__AccessKye=minio
+      - ObjectsStorage__SecretKey=minio123
+      - RabbitMqTopology__Host=rabbitmq
+      - RabbitMqTopology__ExchangeName=ex.batches
+      - RabbitMqTopology__RoutingKey=batches.submitted
+      - RabbitMqTopology__BatchesSubmittedQueueName=cs.queue.batches.submitted
+      - ElasticConfiguration__Url=http://elasticsearch:9200
+      - ServiceConfig__Enabled=true
+      - ServiceConfig__ServiceDiscoveryAddress=http://consul:8500
+      - ServiceConfig__ServiceAddress=http://claimssubmission.api
+      - ServiceConfig__ServiceName=claimssubmission
+      - ServiceConfig__HealtCheckEndpoint=http://claimssubmission.api/health
+      - Jaeger__Enabled=false
+      - Jaeger__UdpHost=jaeger
+      - Jaeger__UdpPort=6831
+      - Metrics__Enabled=false
+      - Metrics__InfluxUrl=http://influxdb:8086
+      - Metrics__Database=claims-submission-metrics
+      - Metrics__Interval=10
+    ports:
+      - "7002:80"
+
+  claimsvetting.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - DB_CONNECTION_STRING=Host=postgres;Port=5432;Database=claims-vetting;Username=postgres;Password=test*123
+      - IDENTITY_AUTHORITY=http://identity.api/
+      - IDENTITY_AUDIENCE=healthcareclaims.apps
+      - ObjectsStorage__Endpoint=host.docker.internal:9000
+      - ObjectsStorage__AccessKye=minio
+      - ObjectsStorage__SecretKey=minio123
+      - RabbitMqTopology__Host=rabbitmq
+      - RabbitMqTopology__ExchangeName=ex.batches
+      - RabbitMqTopology__RoutingKey=batches.submitted
+      - RabbitMqTopology__BatchesSubmittedQueueName=cv.queue.batches.submitted
+      - ElasticConfiguration__Url=http://elasticsearch:9200
+      - ServiceConfig__Enabled=true
+      - ServiceConfig__ServiceDiscoveryAddress=http://consul:8500
+      - ServiceConfig__ServiceAddress=http://claimsvetting.api
+      - ServiceConfig__ServiceName=claimsvetting
+      - ServiceConfig__HealtCheckEndpoint=http://claimsvetting.api/health
+      - Jaeger__Enabled=false
+      - Jaeger__UdpHost=jaeger
+      - Jaeger__UdpPort=6831
+      - Metrics__Enabled=false
+      - Metrics__InfluxUrl=http://influxdb:8086
+      - Metrics__Database=claims-submission-metrics
+      - Metrics__Interval=10
+    ports:
+      - "7003:80"
+
+  insuredmembers.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ServiceConfig__Enabled=true
+      - ServiceConfig__ServiceDiscoveryAddress=http://consul:8500
+      - ServiceConfig__ServiceAddress=http://insuredmembers.api
+      - ServiceConfig__ServiceName=insuredmembers
+      - ServiceConfig__HealtCheckEndpoint=http://insuredmembers.api/health
+      - Jaeger__Enabled=false
+      - Jaeger__UdpHost=jaeger
+      - Jaeger__UdpPort=6831
+      - Metrics__Enabled=false
+      - Metrics__InfluxUrl=http://influxdb:8086
+      - Metrics__Database=claims-submission-metrics
+      - Metrics__Interval=10
+    ports:
+      - "7004:80"
+
+  codesdictionary.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ServiceConfig__Enabled=true
+      - ServiceConfig__ServiceDiscoveryAddress=http://consul:8500
+      - ServiceConfig__ServiceAddress=http://codesdictionary.api
+      - ServiceConfig__ServiceName=codesdictionary
+      - ServiceConfig__HealtCheckEndpoint=http://codesdictionary.api/health
+      - Jaeger__Enabled=false
+      - Jaeger__UdpHost=jaeger
+      - Jaeger__UdpPort=6831
+      - Metrics__Enabled=false
+      - Metrics__InfluxUrl=http://influxdb:8086
+      - Metrics__Database=claims-submission-metrics
+      - Metrics__Interval=10
+    ports:
+      - "7005:80"
+  

@@ -1,0 +1,14 @@
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\HealthcareClaims.ApiGateway\bin\Debug\netcoreapp2.2\HealthcareClaims.ApiGateway.deps.json
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\HealthcareClaims.ApiGateway\bin\Debug\netcoreapp2.2\HealthcareClaims.ApiGateway.runtimeconfig.json
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\HealthcareClaims.ApiGateway\bin\Debug\netcoreapp2.2\HealthcareClaims.ApiGateway.runtimeconfig.dev.json
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\HealthcareClaims.ApiGateway\bin\Debug\netcoreapp2.2\HealthcareClaims.ApiGateway.dll
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\HealthcareClaims.ApiGateway\bin\Debug\netcoreapp2.2\HealthcareClaims.ApiGateway.pdb
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\HealthcareClaims.ApiGateway\obj\Debug\netcoreapp2.2\HealthcareClaims.ApiGateway.csprojAssemblyReference.cache
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\HealthcareClaims.ApiGateway\obj\Debug\netcoreapp2.2\HealthcareClaims.ApiGateway.csproj.CoreCompileInputs.cache
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\HealthcareClaims.ApiGateway\obj\Debug\netcoreapp2.2\HealthcareClaims.ApiGateway.RazorAssemblyInfo.cache
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\HealthcareClaims.ApiGateway\obj\Debug\netcoreapp2.2\HealthcareClaims.ApiGateway.RazorAssemblyInfo.cs
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\HealthcareClaims.ApiGateway\obj\Debug\netcoreapp2.2\HealthcareClaims.ApiGateway.AssemblyInfoInputs.cache
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\HealthcareClaims.ApiGateway\obj\Debug\netcoreapp2.2\HealthcareClaims.ApiGateway.AssemblyInfo.cs
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\HealthcareClaims.ApiGateway\obj\Debug\netcoreapp2.2\HealthcareClaims.ApiGateway.RazorTargetAssemblyInfo.cache
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\HealthcareClaims.ApiGateway\obj\Debug\netcoreapp2.2\HealthcareClaims.ApiGateway.dll
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\HealthcareClaims.ApiGateway\obj\Debug\netcoreapp2.2\HealthcareClaims.ApiGateway.pdb

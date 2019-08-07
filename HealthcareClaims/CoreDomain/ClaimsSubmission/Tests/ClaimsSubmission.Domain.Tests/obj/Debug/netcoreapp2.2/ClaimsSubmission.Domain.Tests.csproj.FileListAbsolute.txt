@@ -1,0 +1,17 @@
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\Tests\ClaimsSubmission.Domain.Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\Tests\ClaimsSubmission.Domain.Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\Tests\ClaimsSubmission.Domain.Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\Tests\ClaimsSubmission.Domain.Tests\bin\Debug\netcoreapp2.2\ClaimsSubmission.Domain.Tests.deps.json
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\Tests\ClaimsSubmission.Domain.Tests\bin\Debug\netcoreapp2.2\ClaimsSubmission.Domain.Tests.runtimeconfig.json
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\Tests\ClaimsSubmission.Domain.Tests\bin\Debug\netcoreapp2.2\ClaimsSubmission.Domain.Tests.runtimeconfig.dev.json
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\Tests\ClaimsSubmission.Domain.Tests\bin\Debug\netcoreapp2.2\ClaimsSubmission.Domain.Tests.dll
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\Tests\ClaimsSubmission.Domain.Tests\bin\Debug\netcoreapp2.2\ClaimsSubmission.Domain.dll
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\Tests\ClaimsSubmission.Domain.Tests\bin\Debug\netcoreapp2.2\ClaimsSubmission.Domain.pdb
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\Tests\ClaimsSubmission.Domain.Tests\obj\Debug\netcoreapp2.2\ClaimsSubmission.Domain.Tests.csprojAssemblyReference.cache
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\Tests\ClaimsSubmission.Domain.Tests\obj\Debug\netcoreapp2.2\ClaimsSubmission.Domain.Tests.csproj.CoreCompileInputs.cache
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\Tests\ClaimsSubmission.Domain.Tests\obj\Debug\netcoreapp2.2\ClaimsSubmission.Domain.Tests.AssemblyInfoInputs.cache
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\Tests\ClaimsSubmission.Domain.Tests\obj\Debug\netcoreapp2.2\ClaimsSubmission.Domain.Tests.AssemblyInfo.cs
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\Tests\ClaimsSubmission.Domain.Tests\obj\Debug\netcoreapp2.2\ClaimsSubmission.Domain.Tests.csproj.CopyComplete
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\Tests\ClaimsSubmission.Domain.Tests\bin\Debug\netcoreapp2.2\ClaimsSubmission.Domain.Tests.pdb
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\Tests\ClaimsSubmission.Domain.Tests\obj\Debug\netcoreapp2.2\ClaimsSubmission.Domain.Tests.dll
+D:\projects\training\healthcare.claimsapp\HealthcareClaims\CoreDomain\ClaimsSubmission\Tests\ClaimsSubmission.Domain.Tests\obj\Debug\netcoreapp2.2\ClaimsSubmission.Domain.Tests.pdb

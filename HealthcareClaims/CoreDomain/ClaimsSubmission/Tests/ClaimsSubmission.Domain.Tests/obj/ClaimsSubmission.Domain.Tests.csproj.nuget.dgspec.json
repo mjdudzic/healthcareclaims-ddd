@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\Tests\\ClaimsSubmission.Domain.Tests\\ClaimsSubmission.Domain.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Domain\\ClaimsSubmission.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Domain\\ClaimsSubmission.Domain.csproj",
+        "projectName": "ClaimsSubmission.Domain",
+        "projectPath": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Domain\\ClaimsSubmission.Domain.csproj",
+        "packagesPath": "C:\\Users\\Lenovo-PC\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.yameo.pl:81/api/v2": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\Tests\\ClaimsSubmission.Domain.Tests\\ClaimsSubmission.Domain.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\Tests\\ClaimsSubmission.Domain.Tests\\ClaimsSubmission.Domain.Tests.csproj",
+        "projectName": "ClaimsSubmission.Domain.Tests",
+        "projectPath": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\Tests\\ClaimsSubmission.Domain.Tests\\ClaimsSubmission.Domain.Tests.csproj",
+        "packagesPath": "C:\\Users\\Lenovo-PC\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\Tests\\ClaimsSubmission.Domain.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.yameo.pl:81/api/v2": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Domain\\ClaimsSubmission.Domain.csproj": {
+                "projectPath": "D:\\projects\\training\\healthcare.claimsapp\\HealthcareClaims\\CoreDomain\\ClaimsSubmission\\ClaimsSubmission.Domain\\ClaimsSubmission.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.7.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
